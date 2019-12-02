@@ -1,0 +1,17 @@
+{
+	"pluginName": "ip",
+	"description": "ip 查询工具",
+	"author": "zhangyuan@newyou.ltd",
+	"homepage": "https://ipip.net",
+	"preload": "preload.js",
+	"version": "1.0.1",
+	"logo": "ipip_logo.png",
+	"platform": ["win32", "darwin", "linux"],
+	"features": [
+	    {
+			"code": "ip_query",
+			"explain": "ip 查询工具",
+	        "cmds":["ip", "ipip"]
+	    }
+	]
+}

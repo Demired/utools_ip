@@ -1,0 +1,15 @@
+{
+  "name": "utools_ip",
+  "version": "1.0.0",
+  "description": "ipip query tools",
+  "main": "preload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangyuan@newyou.ltd",
+  "license": "ISC",
+  "devDependencies": {
+    "ip": "^1.1.5",
+    "request": "^2.88.0"
+  }
+}
