@@ -4,7 +4,7 @@
 	"author": "zhangyuan@newyou.ltd",
 	"homepage": "https://ipip.net",
 	"preload": "preload.js",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"logo": "ipip_logo.png",
 	"platform": ["win32", "darwin", "linux"],
 	"features": [
@@ -12,6 +12,11 @@
 			"code": "ip_query",
 			"explain": "ip 查询工具",
 	        "cmds":["ip", "ipip"]
+		},
+		{
+			"code": "get_myip",
+			"explain": "获取本机ip",
+	        "cmds":["myip"]
 	    }
 	]
 }
